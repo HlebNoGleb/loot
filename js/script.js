@@ -3,7 +3,8 @@ $('.slider').slick({
 	autoplay: true,
   	// autoplaySpeed: 2000,
   	dots:false,
-  	arrows:false
+  	arrows:false,
+    swipe:false
 });
 $(document).on("scroll",function(){
   if
