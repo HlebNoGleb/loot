@@ -6,6 +6,14 @@ $('.slider').slick({
   	arrows:false,
     swipe:false
 });
+$('.rewiews').slick({
+  infinite: true,
+  autoplay: true,
+    // autoplaySpeed: 2000,
+    dots:false,
+    arrows:false,
+    swipe:false
+});
 $(document).on("scroll",function(){
   if
   ($(document).scrollTop()> 10){
