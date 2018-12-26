@@ -290,6 +290,36 @@ header {
   padding: 50px !important;*/
 }
 
+
+@media(max-width: 910px){
+    .navbar-menu{
+        line-height: 50px;
+        text-align: center;
+    }
+    .navbar-menu a{
+        padding: 0 4px;
+    }
+    .nav-container{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .shrink {
+      height: 55px;
+      line-height: 55px;
+    } 
+    .btns{
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+}
 @media (max-width: 670px) {
   .navbar{
         height: 150px;
@@ -337,35 +367,6 @@ header {
   padding: 4px 8px;
   border-radius: 3px;
   background: #dadee0;
-}
-@media(max-width: 910px){
-    .navbar-menu{
-        line-height: 50px;
-        text-align: center;
-    }
-    .navbar-menu a{
-        padding: 0 4px;
-    }
-    .nav-container{
-        width: 100vw;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .shrink {
-      height: 55px;
-      line-height: 55px;
-    } 
-    .btns{
-      width: 100%;
-      text-align: center;
-      position: absolute;
-      top: 85%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-}
 }
 .fouth{
   max-width: 1366px;
@@ -752,6 +753,9 @@ footer h2{
 @media(max-width: 1023px){
   .row{
     flex-direction: column;
+  }
+  .roww{
+    width: 180px;
   }
   /*.col{
     flex-direction: row;
