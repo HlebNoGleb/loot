@@ -294,6 +294,10 @@ header {
   .navbar{
         height: 150px;
     }
+    .shrink {
+      height: 100px;
+      line-height: 55px;
+    } 
   .profile {
     position: relative;
     width: 100%;
@@ -351,7 +355,7 @@ header {
     }
     
     .shrink {
-      height: 100px;
+      height: 55px;
       line-height: 55px;
     } 
     .btns{
