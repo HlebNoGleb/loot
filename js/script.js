@@ -32,3 +32,12 @@ $(function() {
     $('.container').addClass('fadeIn');
   }, 300);
 });
+
+$(".more").click(function () {
+  $(".bgblack").fadeIn(500);
+})
+$(".cross").click(function () {
+  $(".bgblack").fadeOut(500);
+})
+
+
